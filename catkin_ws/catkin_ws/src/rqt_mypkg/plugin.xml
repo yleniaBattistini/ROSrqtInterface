@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="MyPlugin" type="rqt_mypkg.my_module.MyPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      An example Python GUI plugin for organizing dataflows in HRI..
+    </description>
+    <qtgui>
+      <label>Visual tool for HRI</label>
+      <icon type="theme">application-x-executable</icon>
+      <statustip>Visual tool for organizing dataflows in HRI</statustip>
+    </qtgui>
+  </class>
+</library>
