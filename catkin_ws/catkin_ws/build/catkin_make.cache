@@ -1,0 +1,2 @@
+beginner_tutorials:rqt_mypkg
+-DCATKIN_DEVEL_PREFIX=/home/ylenia/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ylenia/catkin_ws/install -G Unix Makefiles
