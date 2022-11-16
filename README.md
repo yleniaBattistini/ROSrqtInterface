@@ -1,16 +1,19 @@
 # ROSrqtInterface
 
 ## Launch rqt existing perspective 
-```bash
-#Launch ROS process
-roscore
 
-#Launch rqt existing perspective
+# Launch ROS process
+```bash
+roscore
+```
+# Launch rqt existing perspective
+```bash
 rqt --perspective PERSPECTIVE_FILE
 ```
 
 
-##Launch plugin
+## Launch plugin
+# Point to the folder "catkin_ws/src/rqt_mypkg/src/rqt_mypkg 
 ```bash
-#Point to the folder "catkin_ws/src/rqt_mypkg/src/rqt_mypkg 
 rosrun rqt_mypkg rqt_mypkg
+```
